@@ -10,6 +10,7 @@ files: ##@Copy files and set permissions
 install: ##Install dependencies
 	@echo "Installing dependencies"
 	docker-compose up -d
+	docker exec -it node-customers-api bash -c "npm install"
 
 up: ##Up containers
 	docker-compose up -d

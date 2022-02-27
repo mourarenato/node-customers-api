@@ -15,9 +15,10 @@ Get started without Makefile:
 3. Edit the `docker-compose.yml` with your Docker information
 4. Checks database settings in `.env` file
 5. Run `docker-compose up -d` command
-6. Run `sudo chmod 777 -R dist/;sudo chmod 777 -R node_modules/` command
-7. Run `sudo mkdir logs;sudo chmod 777 -R logs/` command
-8. Run `docker exec -it node-customers-api bash -c "npm start"` to start server
+6. Run `docker exec -it node-customers-api bash -c "npm install"` command
+7. Run `sudo chmod 777 -R dist/;sudo chmod 777 -R node_modules/` command
+8. Run `sudo mkdir logs;sudo chmod 777 -R logs/` command
+9. Run `docker exec -it node-customers-api bash -c "npm start"` to start server
 
 # Project information
 
